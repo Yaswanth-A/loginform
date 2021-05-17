@@ -1,0 +1,108 @@
+<!doctype html>
+<html class = "background" >
+    
+    <head>
+	    <! For fiiting mobile screen >
+	    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+		
+	    <title>Login Form</title>
+		
+		<! Link for new font style>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+		
+		<! Styling>
+		<style type = "text/css">
+		              
+					
+				 #main{
+					   
+					   width:300px;
+					   padding :10px 20px;
+					   margin:0px auto;
+					   background-color:orange;
+					   
+					  }  
+				   
+				     
+				.header{
+						  font-family: 'Shadows Into Light', cursive;
+					   }
+				
+                			
+				   body,html{
+							  height: 100%;
+							}
+
+                           
+							.background {
+								  
+								  background-image: url("ground.jpg");
+
+								  
+								  height: 100%;
+
+								  
+								  background-position: center;
+								  background-repeat: no-repeat;
+								  background-size: cover;
+								  background-color: black;
+							} 
+				         
+
+						 a{ 
+							  
+							   text-decoration:none;
+				          }
+				              
+							  
+		                a:hover{
+								 text-decoration:underline;
+								 color:green;
+				               }
+				         
+						     
+						.float{
+								position:relative;
+								right:7px;
+								}
+		
+						@media (max-width: 767px)
+								.elementor:not(.elementor-edit-area-active) .elementor-hidden-phone {
+									display: block !important;
+									}
+			    
+		</style>
+		
+    </head>
+	
+	
+    <body>
+	     <div id="main">
+		            <! Header>
+		            <p><h1 class = "header">Welcome to IITM sports login page!</h1></p>
+					<! Logo> 
+	                <p><img src="https://students.iitm.ac.in/iitmsports/images/interiit_logo.png" width="300px" class = "float">
+    	    <form>
+					<p>Email: <input type ="text" placeholder ="yash@gmail.com"></p>
+					<p>Password: <input type="text"></p>
+					<p>Stay logged in<input type ="checkbox" checked ></p>
+					<p><input type ="submit" value ="Login"></p>
+					
+                    <label for="comments">Add any comments here</label>
+
+                    <textarea id="comments" name="comments" rows="4" cols="35" <! Resizing comments box> >
+					
+					</textarea>
+					
+			</form>	
+                    
+                    <p><a href = "https://students.iitm.ac.in/iitmsports/#" target ="_blank">Click here to go to iitm sports page</a></p>       			
+			
+        	
+         </div>    	
+        	
+        </form>
+    </body>
+	
+</html>

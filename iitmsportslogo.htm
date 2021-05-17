@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IIT Madras Sports</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/iitmsports/css/styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+    <link rel="icon" href="/iitmsports/images/logo.png" />
+  </head>
+</html>
+
+
+<body class="background">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color:#000">
+    <a class="navbar-brand" href="#">
+      <img src="/iitmsports/images/logo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-md-auto d-md-flex">
+        <li class="nav-item">
+          <a class="nav-link" href="/iitmsports" style="color:orange">HOME</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/events" style="color:orange">EVENTS</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:orange">
+            SPORTS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/iitmsports/interiit">Inter IIT Sports</a>
+            <a class="dropdown-item" href="/iitmsports/non-interiit">Non Inter IIT Sports</a>
+            <a class="dropdown-item" href="/iitmsports/facilities">Facilities/Grounds</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="/iitmsports/history-iitm" style="color:orange">
+            HISTORY
+          </a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:orange">
+            RECORDS
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="/records-interiit">Inter IIT</a>
+            <a class="dropdown-item" href="/records-schroeter">Schroeter</a>
+            <a class="dropdown-item" href="/records-deanstrophy">Dean's Trophy</a>
+          </div>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:orange">
+            PEOPLE
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="color:orange">
+            <a class="dropdown-item" href="/iitmsports/SOC">SOC</a>
+            <a class="dropdown-item" href="/iitmsports/gymkhana">Gymkhana</a>
+            <a class="dropdown-item" href="/iitmsports/halloffame">Hall of fame</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/iitmsports/results" style="color:orange">RESULTS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/iitmsports/feedback" style="color:orange">FEEDBACK</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <div class="lead">
+        <img src="/iitmsports/images/interiit_logo.png" alt=""  height="600px" width="400px" style="padding:150px 0">
+        <h1 class="lead-head">#MADrush</h1>
+      </div>
+      <div class="album py-5 bg-dark events" style="padding:0">
+        <div class="container">
+          <h1 class="events-head">Upcoming Events</h1>
+          <div class="row" style="padding:0">
+            
+            
+            <div class="col-sm-4" data-aos='fade-up'>
+              <div class="card mb-4 box-shadow" >
+                <img class="card-img-top" src=https://drive.google.com/uc?export=view&amp;id=1SVhsn7X-SWevCVmXq4zVqsgCG2lGIMoG alt="Card image cap" style="max-height:300px; min-height:250px">
+                <div class="card-body">
+                  <p class="card-text">Aspiring Cordinators meet for SOC 2021-22 on 5th May 7pm. Click on the link below and join the respective groups you are interested in. Stay tuned on smail the link will be shared soon</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href=https://docs.google.com/spreadsheets/d/1mUyfLCUjesCXkQ52EBAOM-VrFi8e8L1qhqmra5ULKtI/edit?usp=sharing><button type="button" class="btn btn-sm btn-outline-warning">Read more</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="col-sm-4" data-aos='fade-up'>
+              <div class="card mb-4 box-shadow" >
+                <img class="card-img-top" src=https://drive.google.com/uc?export=view&amp;id=1x730p9Rhlcr6HLH3W38_XaWmozWWKfMj alt="Card image cap" style="max-height:300px; min-height:250px">
+                <div class="card-body">
+                  <p class="card-text">Its time to enjoy and win, SOC brings you a Inter Hostel Fantasy League. Click the link below to join, make your team and Win.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href=https://fantasy.iplt20.com/login?ru=/season/league/join/24OOQYNR5F0103><button type="button" class="btn btn-sm btn-outline-warning">Read more</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="col-sm-4" data-aos='fade-up'>
+              <div class="card mb-4 box-shadow" >
+                <img class="card-img-top" src=https://drive.google.com/uc?export=view&amp;id=1kKgAiELB01FBO-CPYuGCroYW6wWlxqHH alt="Card image cap" style="max-height:300px; min-height:250px">
+                <div class="card-body">
+                  <p class="card-text">Driven by the set standards of the society, the unwanted choices seems to be unbidden bamboos in people’s opinions. So, here WINIndia brings in DEVENDRA JHAJHARIYA, who with his record-breaking performance has won 2 Paralympics Gold. Click on the link below to watch the inspirational sotry of a wonderful athlete.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href=https://www.youtube.com/watch?v=gZ2ncebC_Lk><button type="button" class="btn btn-sm btn-outline-warning">Read more</button></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        <div class="event-btn">
+          <a href="https://www.instagram.com/iitmsports/"><button type="button" class="btn btn-lg btn-warning">More Events</button></a>
+        </div>
+        </div>
+        <div class="About-us" data-aos='zoom-in'>
+          <div class="about-body bg-dark">
+            <h1 class="about-head">About Us</h1
+            <p>IIT Madras, the home to some of the best brains in the country is also home to several top notch athletes. With the best
+              infrastructure facilities available on campus, IIT Madras boasts a sports culture that is of quite a high standard.
+              An Olympic size swimming pool, the impressive IIT-Chemplast cricket ground, a vast stadium and a hi-tech wood-floored
+              badminton court are all significant nodes of the exuberant sports culture here, in addition to the many grounds and fields
+              within and outside hostels. There are various sports events taking place throughout the year including intra-hostel events,
+              Schroeter- the Inter-hostel tournament, Agrata-the inter-collegiate tournament hosted by IIT Madras, and the ultimate
+              Inter IIT Sports Meet which is held annually in rotation by the older IITs.</p>
+          </div>
+        </div>
+        
+
+<div class="footer" style="background-color:#000">
+  <p class="footer-head">STAY TUNED!</p>
+  <a href="https://www.facebook.com/SportsIITM/"><i class="icon fab fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com/iitmsports/"><i class="icon fab fa-instagram"></i></a>
+  <a href="https://www.youtube.com/channel/UCnYOzjdorzacX3Ji2BfEYZg"><i class="icon fab fa-youtube"></i></a>
+  <a href="https://www.linkedin.com/company/sociitm"><i class="icon fab fa-linkedin-in"></i></a><br>
+  <a class="contact" href="/iitmsports/SOC">Contact us</a>
+  <a class="contact" href="/iitmsports/feedback">Feedback</a>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="/iitmsports/script/index.js" charset="utf-8"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</div>
+
+        <a href="#" class="scrollToTop"
+  ><img class="scrollTop-img" src="/iitmsports/images/scrolltop.png"
+/></a>
+<script>
+  $(".scrollToTop").fadeOut();
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+      $(".scrollToTop").fadeIn();
+    } else {
+      $(".scrollToTop").fadeOut();
+    }
+  });
+</script>
+
+
+    </body>
